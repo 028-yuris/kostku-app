@@ -1,0 +1,423 @@
+{
+  "info": {
+    "_postman_id": "5536da00-091c-40dc-9484-634605656fb8",
+    "name": "New Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "55832599",
+    "_collection_link": "https://go.postman.co/collection/55832599-5536da00-091c-40dc-9484-634605656fb8?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "api/v1",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": [
+        {
+          "name": "api/v1",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://silab.ft.unira.ac.id/api/v1",
+              "protocol": "https",
+              "host": [
+                "silab",
+                "ft",
+                "unira",
+                "ac",
+                "id"
+              ],
+              "path": [
+                "api",
+                "v1"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": ":status",
+              "value": 200
+            },
+            {
+              "key": "server",
+              "value": "nginx"
+            },
+            {
+              "key": "date",
+              "value": "Sat, 03 Oct 2026 13:12:14 GMT"
+            },
+            {
+              "key": "content-type",
+              "value": "text/html; charset=UTF-8"
+            },
+            {
+              "key": "vary",
+              "value": "Accept-Encoding, Origin"
+            },
+            {
+              "key": "x-powered-by",
+              "value": "Express"
+            },
+            {
+              "key": "access-control-allow-credentials",
+              "value": "true"
+            },
+            {
+              "key": "cache-control",
+              "value": "public, max-age=0"
+            },
+            {
+              "key": "last-modified",
+              "value": "Sun, 06 Sep 2026 22:47:53 GMT"
+            },
+            {
+              "key": "etag",
+              "value": "W/\"1030-1a078e81e82\""
+            },
+            {
+              "key": "x-frame-options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "key": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "key": "x-xss-protection",
+              "value": "1; mode=block"
+            },
+            {
+              "key": "x-permitted-cross-domain-policies",
+              "value": "master-only"
+            },
+            {
+              "key": "referrer-policy",
+              "value": "same-origin"
+            },
+            {
+              "key": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            },
+            {
+              "key": "content-encoding",
+              "value": "br"
+            }
+          ],
+          "cookie": [],
+          "body": "<!DOCTYPE html>\n<html lang=\"id\">\n    <head>\n        <meta charset=\"UTF-8\" />\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n        <meta name=\"description\" content=\"Sistem Informasi Laboratorium Universitas Madura telah berpindah ke ATLAS\" />\n        <meta http-equiv=\"refresh\" content=\"12;url=https://atlas.unira.ac.id\" />\n        <link rel=\"icon\" type=\"image/png\" href=\"/assets/images/atlas.png\" />\n        <title>SILAB berpindah ke ATLAS | UNIRA</title>\n        <script src=\"https://cdn.tailwindcss.com\"></script>\n    </head>\n    <body class=\"min-h-screen bg-gradient-to-br from-slate-950 via-[#3b2b17] to-amber-900 flex items-center justify-center p-5 font-sans\">\n        <main class=\"w-full max-w-lg rounded-3xl bg-white/95 shadow-2xl ring-1 ring-black/10 overflow-hidden\">\n            <div class=\"h-1.5 w-full bg-slate-200\">\n                <div id=\"bar\" class=\"h-full w-0 bg-gradient-to-r from-amber-500 to-emerald-500 transition-[width] duration-1000 ease-linear\"></div>\n            </div>\n            <div class=\"px-8 py-9 text-center\">\n                <div class=\"flex items-center justify-center gap-4\">\n                    <img src=\"/assets/images/logo-unira.png\" alt=\"Logo UNIRA\" class=\"h-16 w-16 object-contain\" />\n                    <svg class=\"h-6 w-6 text-slate-400\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\">\n                        <path d=\"M5 12h14m-6-6 6 6-6 6\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\n                    </svg>\n                    <img src=\"/assets/images/atlas.png\" alt=\"Logo ATLAS\" class=\"h-16 w-16 object-contain\" />\n                </div>\n                <p class=\"mt-5 text-[11px] font-bold uppercase tracking-[0.22em] text-amber-700\">Pemberitahuan Sistem</p>\n                <h1 class=\"mt-2 text-2xl font-extrabold tracking-tight text-slate-900\">SILAB telah berpindah ke ATLAS</h1>\n                <p class=\"mt-3 text-sm leading-relaxed text-slate-600\">\n        Layanan di \n                    <span class=\"font-mono font-semibold text-slate-800\">silab.ft.unira.ac.id</span>\n        sudah dialihkan ke alamat baru\n                    <span class=\"font-mono font-semibold text-emerald-700\">atlas.unira.ac.id</span>.\n        Silakan perbarui bookmark Anda.\n                </p>\n                <div class=\"mt-5 inline-flex items-center gap-2.5 rounded-full bg-slate-100 px-5 py-2.5\">\n                    <span class=\"relative flex h-2.5 w-2.5\">\n                        <span class=\"animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75\"></span>\n                        <span class=\"relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500\"></span>\n                    </span>\n                    <p class=\"text-sm text-slate-600\">Mengalihkan otomatis dalam \n                        <strong id=\"count\" class=\"font-mono text-slate-900\">10</strong> detik…\n                    </p>\n                </div>\n                <div class=\"mt-6\">\n                    <a href=\"https://atlas.unira.ac.id\"\n           class=\"inline-flex w-full items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-amber-600 to-amber-700 px-5 py-3.5 text-sm font-bold text-white shadow-lg shadow-amber-900/20 transition hover:brightness-110\">\n          Lanjut ke ATLAS Sekarang\n          \n                        <svg class=\"h-4 w-4\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\">\n                            <path d=\"M5 12h14m-6-6 6 6-6 6\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\n                        </svg>\n                    </a>\n                    <p class=\"mt-3 text-xs text-slate-400\">Jika tidak berpindah otomatis, tekan tombol di atas.</p>\n                </div>\n            </div>\n            <div class=\"border-t border-slate-100 bg-slate-50 px-8 py-3.5 text-center text-[11px] text-slate-400\">\n      Universitas Madura &bull; Academic Technical Laboratory Administration System\n    </div>\n        </main>\n        <script>\n    (function () {\n      var target = 'https://atlas.unira.ac.id';\n      var remain = 10;\n      var countEl = document.getElementById('count');\n      var barEl = document.getElementById('bar');\n      function tick() {\n        remain -= 1;\n        if (remain <= 0) {\n          window.location.replace(target);\n          return;\n        }\n        if (countEl) countEl.textContent = remain;\n        if (barEl) barEl.style.width = ((10 - remain) * 10) + '%';\n        setTimeout(tick, 1000);\n      }\n      if (barEl) barEl.style.width = '0%';\n      setTimeout(tick, 1000);\n    })();\n  \n        </script>\n    </body>\n</html>"
+        }
+      ]
+    },
+    {
+      "name": "api/v1/jadwal/jumlah-jadwal",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": [
+        {
+          "name": "api/v1/jadwal/jumlah-jadwal",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://silab.ft.unira.ac.id/api/v1/jadwal/jumlah-jadwal",
+              "protocol": "https",
+              "host": [
+                "silab",
+                "ft",
+                "unira",
+                "ac",
+                "id"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "jadwal",
+                "jumlah-jadwal"
+              ]
+            }
+          },
+          "status": "Unauthorized",
+          "code": 401,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": ":status",
+              "value": 401
+            },
+            {
+              "key": "server",
+              "value": "nginx"
+            },
+            {
+              "key": "date",
+              "value": "Sat, 03 Oct 2026 13:12:52 GMT"
+            },
+            {
+              "key": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "content-length",
+              "value": "180"
+            },
+            {
+              "key": "x-powered-by",
+              "value": "Express"
+            },
+            {
+              "key": "vary",
+              "value": "Origin"
+            },
+            {
+              "key": "access-control-allow-credentials",
+              "value": "true"
+            },
+            {
+              "key": "etag",
+              "value": "W/\"b4-ncykO5YQlVm/ErN6gfBrL73r4iU\""
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"jsonapi\": {\n        \"version\": \"1.0\"\n    },\n    \"meta\": {\n        \"authors\": \"Muhammad Umar Mansyur\",\n        \"copyright\": \"2023 ~ Silab Informatika Universitas Madura\"\n    },\n    \"status\": false,\n    \"message\": \"Akses tidak diizinkan!\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "POST Jadwal",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": [
+        {
+          "name": "POST Jadwal",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "https://silab.ft.unira.ac.id/api/v1/jadwal",
+              "protocol": "https",
+              "host": [
+                "silab",
+                "ft",
+                "unira",
+                "ac",
+                "id"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "jadwal"
+              ]
+            }
+          },
+          "status": "Unauthorized",
+          "code": 401,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": ":status",
+              "value": 401
+            },
+            {
+              "key": "server",
+              "value": "nginx"
+            },
+            {
+              "key": "date",
+              "value": "Sat, 03 Oct 2026 13:03:50 GMT"
+            },
+            {
+              "key": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "content-length",
+              "value": "180"
+            },
+            {
+              "key": "x-powered-by",
+              "value": "Express"
+            },
+            {
+              "key": "vary",
+              "value": "Origin"
+            },
+            {
+              "key": "access-control-allow-credentials",
+              "value": "true"
+            },
+            {
+              "key": "etag",
+              "value": "W/\"b4-ncykO5YQlVm/ErN6gfBrL73r4iU\""
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"jsonapi\": {\n        \"version\": \"1.0\"\n    },\n    \"meta\": {\n        \"authors\": \"Muhammad Umar Mansyur\",\n        \"copyright\": \"2023 ~ Silab Informatika Universitas Madura\"\n    },\n    \"status\": false,\n    \"message\": \"Akses tidak diizinkan!\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "api/v1/xxx",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": [
+        {
+          "name": "api/v1/xxx",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://silab.ft.unira.ac.id/api/v1/xxx",
+              "protocol": "https",
+              "host": [
+                "silab",
+                "ft",
+                "unira",
+                "ac",
+                "id"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "xxx"
+              ]
+            }
+          },
+          "status": "Not Found",
+          "code": 404,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": ":status",
+              "value": 404
+            },
+            {
+              "key": "server",
+              "value": "nginx"
+            },
+            {
+              "key": "date",
+              "value": "Sat, 03 Oct 2026 13:06:02 GMT"
+            },
+            {
+              "key": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "vary",
+              "value": "Accept-Encoding, Origin"
+            },
+            {
+              "key": "x-powered-by",
+              "value": "Express"
+            },
+            {
+              "key": "access-control-allow-credentials",
+              "value": "true"
+            },
+            {
+              "key": "etag",
+              "value": "W/\"bd-WnupPZu2gyTpiwvrUHJ4L+OdxF0\""
+            },
+            {
+              "key": "content-encoding",
+              "value": "br"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"jsonapi\": {\n        \"version\": \"1.0\"\n    },\n    \"meta\": {\n        \"authors\": \"Muhammad Umar Mansyur\",\n        \"copyright\": \"2023 ~ Silab Informatika Universitas Madura\"\n    },\n    \"status\": false,\n    \"message\": \"Api atau berkas tidak ditemukan\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "POST graphql",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": [
+        {
+          "name": "POST graphql",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "https://api.unira.ac.id/graphql",
+              "protocol": "https",
+              "host": [
+                "api",
+                "unira",
+                "ac",
+                "id"
+              ],
+              "path": [
+                "graphql"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Date",
+              "value": "Sat, 03 Oct 2026 13:06:46 GMT"
+            },
+            {
+              "key": "Server",
+              "value": "Apache"
+            },
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "key": "Access-Control-Allow-Methods",
+              "value": "POST, GET, PUT, DELETE, OPTIONS"
+            },
+            {
+              "key": "Access-Control-Allow-Headers",
+              "value": "Origin, X-Requested-With, Content-Type, Accept, Authorization"
+            },
+            {
+              "key": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-transform"
+            },
+            {
+              "key": "Content-Length",
+              "value": "38"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5, max=100"
+            },
+            {
+              "key": "Connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"data\": {\n        \"hello\": \"UNIRA GRAPHQL API\"\n    }\n}"
+        }
+      ]
+    }
+  ]
+}
